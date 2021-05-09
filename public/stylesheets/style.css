@@ -1,0 +1,113 @@
+/* body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+} */
+
+a {
+  color: #00b7ff;
+}
+
+@font-face {
+  font-family: Pacifico;
+  src: url("./font/Pacifico.ttf");
+}
+
+@font-face {
+  font-family: SF Pro Display;
+  src: url("./font/SF\ Pro\ Display.ttf");
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Pacifico !important;
+}
+.bg {
+  background-image: url("/images/background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bg2 {
+  background-image: url("/images/bg1.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bg3 {
+  background-image: url("/images/bg2.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.transbox {
+  margin: 0;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  background-size: cover;
+}
+table {
+  font-family: SF Pro Display !important;
+}
+p,
+h1.abetterway {
+  font-size: 48px;
+  color: white;
+}
+p,
+h1.travelto {
+  font-size: 46px;
+  color: #fcb371;
+}
+.chipest {
+  font-family: SF Pro Display;
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+.morethan {
+  font-family: SF Pro Display;
+  font-weight: 400;
+  font-size: 28px;
+  color: white;
+  text-align: center;
+}
+.btn-outline-warning {
+  color: #fcb371 !important;
+  border-color: #fcb371 !important;
+}
+.btn-warning {
+  color: white !important;
+  background: #fcb371 !important;
+}
+.btn.btn-outline-warning:hover {
+  background: none;
+  color: #fcb371;
+}
+
+@media screen and (max-width: 375px) {
+  .morethan {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .morethan {
+    font-size: 25px;
+    margin-top: 15px;
+  }
+}
+input,
+textarea,
+select {
+  font-family: SF Pro Display !important;
+}
