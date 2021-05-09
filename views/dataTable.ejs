@@ -1,0 +1,28 @@
+<table id="example" class="table table-striped" style="width:100%">
+    <thead>
+        <tr>
+            <th>NO</th>
+            <th>Nama Produk</th>
+            <th>Keterangan</th>
+            <th>Jumlah</th>
+            <th>Harga</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <% const no = 1 %>         
+
+        <% row.forEach(produk => { %>
+            <tr>
+                <td><%= no %> </td>
+                <td><%= produk.nama_produk %> </td>
+                <td><%= produk.keterangan %> </td>
+                <td><%= produk.jumlah %> </td>
+                <td><%= produk.harga %> </td>
+
+                <td><a href="/update/'<%= produk.harga %>'">Update</a> | <a href="/deleteProduct/<%= produk.nama_produk %>" onclick="reload()">Delete</a> </td>
+            </tr>
+        <% }) %>
+    </tbody>
+</table>
+
